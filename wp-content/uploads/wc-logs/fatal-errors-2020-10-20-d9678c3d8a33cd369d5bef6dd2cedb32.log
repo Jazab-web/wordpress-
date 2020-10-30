@@ -1,0 +1,21 @@
+2020-10-20T02:08:40+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordpress\wp-content\plugins\ocean-extra\includes\widgets\social.php on line 10
+
+2020-10-20T02:08:41+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordpress\wp-content\plugins\ocean-extra\includes\widgets\video.php on line 9
+
+2020-10-20T02:08:47+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordpress\wp-includes\Requests\Transport\cURL.php on line 163
+
+2020-10-20T02:10:12+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 88
+
+2020-10-20T04:23:13+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on bool in C:\xampp\htdocs\wordpress\wp-content\plugins\woolentor-addons\classes\class.default_data.php:157
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woolentor-addons\includes\addons\wb_product_image.php(136): WooLentor_Default_Data->default('wl-single-produ...')
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\base\widget-base.php(530): Elementor\WL_Product_Image_Element->render()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\document.php(224): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\widgets.php(323): Elementor\Core\Base\Document->render_element(Array)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elemento in C:\xampp\htdocs\wordpress\wp-content\plugins\woolentor-addons\classes\class.default_data.php on line 157
+
+2020-10-20T13:22:34+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordpress\wp-content\plugins\events-addon-for-elementor\elementor\widgets\event-unique\naevents-unique-accommodation.php on line 9
+
+2020-10-20T13:32:04+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordpress\wp-content\plugins\ocean-extra\includes\widgets\recent-posts.php on line 9
+
